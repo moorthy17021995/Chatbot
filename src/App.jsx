@@ -15,6 +15,7 @@ function App() {
     <div className="  flex flex-col h-screen  w-120 mx-auto  ">
       <ChatInput Chat={Chat} SetChat={SetChat} />
       <ChatMessages Chat={Chat} SetChat={SetChat}/>
+      <p>hello</p>
     </div>
   )
 }
